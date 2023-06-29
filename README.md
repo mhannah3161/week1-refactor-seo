@@ -5,6 +5,8 @@ Horiseon Marketing wanted a site that was more accessible to get a larger custom
 To do this I utilized semantic HTML and condenced quite a bit of extra CSS code. I also used alternete text for screenreaders. 
 ### How to Use
 To be able to see what was done to improve the website, one must looking into the developer apps on Chrome by right-clicking on the webpage and selecting "Inspect".
-Inside of here is where all code can be seen. The size of the CSS file went in half, and the HTML makes more sense. 
+Inside of here is where all code can be seen. The size of the CSS file was cut in half, and semantic HTML is used.
+### Preview
+Click [Here] (Test.pdf)to see a preview of the website. 
 ### Site Link
 Click [Here] (https://mhannah3161.github.io/week1-refactor-seo/) to visit my project.
