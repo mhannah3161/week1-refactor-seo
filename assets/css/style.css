@@ -50,11 +50,15 @@ p {
     font-size: 16px;
 }
 
-aside {
+.hero {
+    height: 800px;
+    width: 100%;
     margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
+
 
 .float-left {
     float: left;
@@ -71,14 +75,6 @@ section {
     display: inline-block;
     margin-left: 20px;
 }
-section > * {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 /* consolidated seperate classes to benefits */
 main {
     margin-right: 20px;
@@ -89,16 +85,9 @@ main {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    margin-bottom: 32px;
-    color: #ffffff;
 }
-/* condenced ids in section to section div */
-section div {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+main div {
+    margin-bottom: 32px;
     color: #ffffff;
 }
 
@@ -114,11 +103,20 @@ main img {
     max-width: 150px;
 }
 /* made content img and h2 */
-section img {
+/* condenced ids in section to section div */
+section div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+section div img {
     max-height: 200px;
 }
 
-section h2 {
+section div h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
